@@ -105,3 +105,15 @@ footer {
   font-size: 0.9rem;
   background: #eee;
 }
+
+/* TOP BAR */
+.topbar {
+  width: 100%;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.top-logo {
+  height: 55px;
+}
