@@ -5,72 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dan Seasonal Services</title>
   <link rel="stylesheet" href="style.css" />
-
-  <style>
-    /* HERO WITH IMAGE */
-    .hero {
-      background:
-        linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
-        url("header.png") center / cover no-repeat;
-      padding: 90px 20px;
-    }
-
-    .hero-content {
-      max-width: 1100px;
-      margin: auto;
-      display: flex;
-      align-items: center;
-      gap: 40px;
-      flex-wrap: wrap;
-    }
-
-    .hero-logo {
-      max-width: 180px;
-    }
-
-    .hero-text h1 {
-      font-size: 2.6rem;
-      margin-bottom: 10px;
-      color: #1F3D2B;
-    }
-
-    .hero-text p {
-      font-size: 1.2rem;
-      margin-bottom: 25px;
-    }
-
-    .hero-buttons a {
-      margin-right: 10px;
-      margin-bottom: 10px;
-      display: inline-block;
-    }
-
-    @media (max-width: 768px) {
-      .hero-content {
-        text-align: center;
-        justify-content: center;
-      }
-    }
-  </style>
 </head>
 
 <body>
 
-  <!-- HERO -->
+  <!-- HERO / BANNER -->
   <header class="hero">
-    <div class="hero-content">
-      <img src="logo.png" alt="Dan Seasonal Services Logo" class="hero-logo" />
+    <div class="hero-overlay">
+      <div class="hero-inner">
+        <img src="logo.png" alt="Dan Seasonal Services Logo" class="logo" />
 
-      <div class="hero-text">
         <h1>Dan Seasonal Services</h1>
-        <p><strong>Reliable Service, Every Season.</strong></p>
+        <p class="tagline">Reliable Service, Every Season.</p>
 
         <div class="hero-buttons">
-          <a href="https://danseasonalservices.setmore.com" class="btn-secondary">
+          <a href="https://danseasonalservices.setmore.com" class="btn primary">
             Book a Service
           </a>
-
-          <a href="tel:17343165665" class="btn-primary">
+          <a href="tel:17343165665" class="btn secondary">
             Call 734-316-5665
           </a>
         </div>
@@ -93,18 +45,18 @@
   <section class="section alt">
     <h2>Services</h2>
 
-    <div class="services-grid">
-      <div class="service-card">
+    <div class="services">
+      <div class="card">
         <h3>Winter</h3>
         <p>Snow removal for driveways, walkways, and sidewalks.</p>
       </div>
 
-      <div class="service-card">
+      <div class="card">
         <h3>Spring & Summer</h3>
         <p>Lawn mowing and general outdoor upkeep.</p>
       </div>
 
-      <div class="service-card">
+      <div class="card">
         <h3>Fall</h3>
         <p>Leaf removal and seasonal property cleanups.</p>
       </div>
@@ -119,7 +71,7 @@
       📍 Serving local residential properties
     </p>
 
-    <a href="https://danseasonalservices.setmore.com" class="btn-secondary">
+    <a href="https://danseasonalservices.setmore.com" class="btn primary">
       Book Online
     </a>
   </section>
