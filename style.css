@@ -106,14 +106,16 @@ footer {
   background: #eee;
 }
 
-/* TOP BAR */
-.topbar {
-  width: 100%;
-  padding: 12px 20px;
-  display: flex;
-  align-items: center;
+/* HERO LOGO (TOP-LEFT) */
+.hero {
+  position: relative;
 }
 
-.top-logo {
+.hero-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   height: 55px;
+  width: auto;
 }
+
